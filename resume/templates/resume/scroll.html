@@ -1,0 +1,75 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Resume Web Site</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="{% static 'css/scroll.css' %}" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#section1">About Me</a></li>
+                <li><a href="#section2">Web Development</a></li>
+                <li><a href="#section3">Ai</a></li>
+                <!--<li><a href="#section4">Game Development</a></li>-->
+                <li><a href="#section4">certificates</a></li>
+                <!--she wrote sec4 for some reason -->
+                <li><a href="#section5">Projects</a></li>
+                <li><a href="#section6">Business</a></li>
+                <li><a href="#section7">Contact</a></li>
+            </ul>
+
+        </nav>
+        <div id ="section1" >
+            <h1 id="about_me">About Me</h1>
+            <h3 id="Reading" style="text-align: center;">I Know Reading Resumes All Day Is Boring So I Present To You A Different One</h3>
+            <br>
+            <div class="container">
+                <div class="row">
+                  <div class="col">
+                      <h3>School</h3>
+                          <h4>In High School I Studied Biotech </h4>
+                          <h4>And Biology Which I Find Really Facinating</h4> 
+                          <br>
+                          <p>I Was Lucky To Conduct A Research In Hadassah Academic College </p>
+                            <p>About The Effects Of Antidepressant On Microscopic Worms </p>
+                          <img src="static/css/nematod.png" alt="Couldent Load Image" width="50%" height="50%">
+                  </div>
+                  <div class="col">
+                    <h3>Programing</h3>
+                        <h4>I Started Programing In The IDF </h4> 
+                        <h4>When I Was A Combat Action Solider</h4> 
+                        <br>
+                        <p>Started Learning In A Dusty Ammo Room On Break Times
+                         When I Was Deputy Company sergeant major</p>
+                        <p>Then Was Transferd Due To Astma
+                        (Dont Know Where That Came From) To A New Place Where I Was Incharge of Events And Tours
+                        <p> In Which I Had Way More Free Time And Studied For Most The Day</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div id ="section2">
+            <h1>Web Development</h1>
+            
+        </div>
+        <div id ="section3">
+            <h1>Ai</h1>
+        </div>
+        <div id ="section4">
+            <h1>Certifications</h1>
+        </div>
+        <div id ="section5">
+            <h1>Projects</h1>
+        </div>
+        <div id ="section6">
+            <h1>Business</h1>
+        </div>
+        <div id ="section7">
+            <h1>Contact</h1>
+        </div>
+    </body>
+
+</html>
